@@ -1,0 +1,7 @@
+config,lr_layers12,lr_last,residual,psnr_200,psnr_400,psnr_600,ssim_600
+paper_lr,1e-4,1e-5,no,26.52,28.01,28.07,0.7965
+high_lr,1e-3,1e-4,no,28.56,29.03,29.07,0.8209
+equal_lr,5e-4,5e-4,no,28.56,29.02,29.06,0.8189
+residual,1e-4,1e-5,yes,29.05,29.17,29.18,0.8242
+bicubic,-,-,-,28.41,28.41,28.41,0.8099
+# SRCNN 9-5-5, x4, CPU, batch 16, patch 64, Adam, val = Set5 (Y, border 4)

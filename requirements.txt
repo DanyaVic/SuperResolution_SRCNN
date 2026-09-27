@@ -1,0 +1,9 @@
+torch>=2.1          # для GPU ставьте сборку с CUDA: https://pytorch.org/get-started/locally/
+torchvision>=0.16
+opencv-python>=4.8  # именно opencv-python (не -headless), иначе не будет окна
+numpy>=1.24
+pillow>=10.0
+scikit-image>=0.21
+matplotlib>=3.7
+tqdm>=4.65
+lpips>=0.1.4        # метрика LPIPS (при первом запуске скачает веса AlexNet)

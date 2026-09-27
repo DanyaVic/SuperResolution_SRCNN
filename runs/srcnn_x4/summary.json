@@ -1,0 +1,9 @@
+{
+ "scale": 4,
+ "best_val_psnr": 29.983306511761803,
+ "bicubic_val_psnr": 28.932574182402742,
+ "bicubic_val_ssim": 0.7769211000035671,
+ "iters": 20000,
+ "minutes": 21.153781882921855,
+ "device": "cuda"
+}
